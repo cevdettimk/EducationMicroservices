@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Order.Domain.Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Order.Infrastructure", "Services\Order\Services.Order.Infrastructure\Services.Order.Infrastructure.csproj", "{C60B3736-DE77-44FE-8827-736A3BAD58DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakePayment", "FakePayment", "{484AE8B5-6541-4DCA-84B6-2D78DA34A409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.FakePayment", "Services\FakePayment\Services.FakePayment\Services.FakePayment.csproj", "{72348B7B-69E5-4C60-B530-64E5948C616C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,10 @@ Global
 		{C60B3736-DE77-44FE-8827-736A3BAD58DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C60B3736-DE77-44FE-8827-736A3BAD58DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C60B3736-DE77-44FE-8827-736A3BAD58DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72348B7B-69E5-4C60-B530-64E5948C616C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72348B7B-69E5-4C60-B530-64E5948C616C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72348B7B-69E5-4C60-B530-64E5948C616C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72348B7B-69E5-4C60-B530-64E5948C616C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +120,8 @@ Global
 		{4DC955FA-5243-4B04-AF62-CF9E39E9ED9B} = {93F100EF-720A-4157-8A24-42C94FC56FD7}
 		{EBA80F4F-15E0-4983-8718-C64CC5321B18} = {93F100EF-720A-4157-8A24-42C94FC56FD7}
 		{C60B3736-DE77-44FE-8827-736A3BAD58DC} = {93F100EF-720A-4157-8A24-42C94FC56FD7}
+		{484AE8B5-6541-4DCA-84B6-2D78DA34A409} = {C29BB3D9-344B-42F3-A588-221D097F4D0E}
+		{72348B7B-69E5-4C60-B530-64E5948C616C} = {484AE8B5-6541-4DCA-84B6-2D78DA34A409}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E76DD074-D329-46CA-8D75-2C03885C7528}
